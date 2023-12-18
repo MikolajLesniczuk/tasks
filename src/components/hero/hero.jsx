@@ -3,8 +3,9 @@ import heroimg from "../../assets/images/svg/illustration-hero.svg";
 export const Hero = () => {
   return (
     <div className={s.position}>
-      <img className={s.imghero} src={heroimg} alt="hero"></img>
-      <div className={s.bgcircle}></div>
+      <div className={s.after}>
+        <img className={s.imghero} src={heroimg} alt="hero"></img>
+      </div>
       <div className={s.box}>
         <h1 id="main" className={s.title}>
           A Simple Bookmark Manager
