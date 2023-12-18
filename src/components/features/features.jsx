@@ -59,13 +59,12 @@ export const Features = () => {
       <div>
         {selectedCategory !== null && (
           <div className={s.flex}>
-            <div>
+            <div className={s.after}>
               <img
                 className={s.photo}
                 src={data[selectedCategory].img}
                 alt="img"
               ></img>
-              <div className={s.bgCircle}></div>
             </div>
             <div className={s.box}>
               <h1 className={s.main}> {data[selectedCategory].main}</h1>
