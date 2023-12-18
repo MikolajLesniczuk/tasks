@@ -1,0 +1,72 @@
+.nav {
+  font-size: 40px;
+}
+.navdesktop {
+  display: none;
+}
+.display {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.active {
+  display: none;
+}
+.btn {
+  background: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .display {
+    display: none;
+  }
+  .navdesktop {
+    margin-top: 40px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .features {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+  }
+  .pricing {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+  }
+  .contact {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+  }
+  .btn {
+    cursor: pointer;
+    width: 100px;
+    outline: none;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    background-color: hsl(0, 94%, 66%);
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+  }
+}
